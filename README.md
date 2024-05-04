@@ -22,6 +22,7 @@ Postgres:
 
 ## Running
 - `./odoo-bin -c debian/odoo.conf`
+- `Go to  http://localhost:8069/`
 
 ## Directory Structure
 
