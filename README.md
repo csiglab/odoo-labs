@@ -18,7 +18,7 @@ Requirements:
 - `pip3 install -r requirements.txt`
 
 Postgres:
-- `docker run --name some-postgres -e POSTGRES_DB=appdb -e POSTGRES_USER=user -e POSTGRES_PASSWORD=pass -p 5432:5432 -d postgrest:15-alpine`
+- `docker run --name some-postgres -e POSTGRES_DB=appdb -e POSTGRES_USER=user -e POSTGRES_PASSWORD=pass -p 5432:5432 -d postgres:15-alpine`
 
 ## Running
 - `./odoo-bin -c debian/odoo.conf`
